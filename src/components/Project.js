@@ -25,9 +25,9 @@ export default function Project() {
         <h1 className="text-5xl flex justify-center my-style mb-4">
           My Projects
         </h1>
-        <section className="grid grid-cols-2 gap-8">
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
           {projectData &&
-            projectData.map((project, index) => (
+            projectData.map((project) => (
               <article className="relative rounded-lg shadow-xl bg-white p-16">
                 <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-800">
                   <a
